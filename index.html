@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzma Hamid - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97b5228103.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id =header>
+    <div class="container">
+        <div class="header-fixed"> 
+            <nav>
+                <a href="#header">
+                    <img src="images/loggo.png" class="logo">
+                </a>
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" style="color: #cccccc;" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" style="color: #c2c2c2;" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="header-text">
+            <p> Hello!</p>
+            <h1>I am<span class="uzma-hamid"> Uzma Hamid.</span><br>Welcome to my website</h1>
+        </div>
+    </div>
+</div>
+<!----------------Education------------------>
+<div id="education">
+    <div class="container">
+        <h1 class="sub-title"> Education</h1>
+        <div class="education-container">
+            <!-- University 1 -->
+            <div class="university">
+                <h3>BS Computer Science 2023-2025</h3>
+                <a href="https://www.tamu.edu/" class="TAMU" target="_blank">Texas A&M University</a>
+            </div>
+            <div class="divider"></div>
+            <!-- University 2 -->
+            <div class="university">
+                <h3>BS Computer Science Engineering, Data Analytics 2021-2022</h3>
+                <a href="https://www.drake.edu/" class="DU" target="_blank">Drake University</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------experience-------------->
+<div id="experience">
+    <div class="container">
+        <h1 class="sub-title"> Experience</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src =" images/work.png">
+                <div class="layer">
+                    <h3>Student Technician</h3>
+                    <p> Providing on-call support, effectively responding to technical 
+                        issues and maintaining a rapid response, and providing onsite 
+                        help when needed.</p>
+                    <a href=""> <i class="fa-solid fa-arrow-up-right-from-square" style="color: #b8b8b8;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src =" images/workk.png">
+                <div class="layer">
+                    <h3>Pixel Wise Annotation Tool</h3>
+                    <p>Led a Computer Vision research initiative focusing on image 
+                        detection, object detection, and semantic segmentation, 
+                        resulting in the development of a fine-grain annotation tool 
+                        by utilizing python programming. </p>
+                    <a href=""> <i class="fa-solid fa-arrow-up-right-from-square" style="color: #b8b8b8;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src =" images/workkk.png">
+                <div class="layer">
+                    <h3>MISFIT</h3>
+                    <p> Developed a program to test different magnetic field configurations
+                         and strengths to improve understanding of how powerful shields 
+                         would be needed to protect the crew from strong radiations.</p>
+                    <a href=""> <i class="fa-solid fa-arrow-up-right-from-square" style="color: #b8b8b8;"></i></a>
+                </div>
+            </div>
+            </div>
+            <a href="#" class="btn"> See more</a>
+        </div>
+</div>
+<!-- ----------------------projects--------------------------->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title"> Projects</h1>
+        <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-robot" style="color: #fcfcfc;"></i>
+                    <h2>Table-Top Segmentation</h2>
+                    <p> Led research in image segmentation of table-top objects 
+                        using Graph Neural Networks.</p>
+                        <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-microchip" style="color: #fcfcfc;"></i>
+                    <h2>Chip Visualization</h2>
+                    <p>Developed a Python program to identify image similarity utilizing deep neural networking and the 
+                        cosine similarity metric, resulting in a streamlined method for finding the top 7 matching images. </p>
+                        <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-book" style="color: #fcfcfc;"></i>
+                    <h2>BookRec</h2>
+                    <p> </p>
+                        <a href="#"> Learn more</a>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!-------------about section --------------------------------->
+<div id="about">
+    <div class="container">
+        <div class = "row">
+            <div class = "about-col-1">
+            <!--<img src = "images/user.png">-->
+            </div>
+            <div class = "about-col-2"> 
+                <h1 class="sub-title">About Me!</h1>
+                <p>I'm Uzma Hamid, a Computer Science enthusiast currently pursuing my 
+                    Bachelor's degree at Texas A&M University. With a strong foundation in various programming languages such as 
+                    Python, C++, Java and more. I'm passionate about cutting-edge technology, problem-solving and software development.  
+                    My curiosity extends beyond computer science. Check out my projects and experience to learn more 
+                    about my journey in the world of technology and leadership.</p>
+                    <!---
+                    <div class = "tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span> 2023 - Current </span><br>Texas A&M University</li>
+                            <li><span>2021 - 2022</span><br>Drake University</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span> 2021 - Current</span><br>Student Technician</li>
+                            <li><span>2022 - 2023</span><br>Student Research Assistant</li>
+                            <li><span>2021 - 2022</span><br>Undergraduate Researcher</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span> UI/UX</span><br>Designing</li>
+                            <li><span>Web Developement</span><br>web app development</li>
+                            <li><span>Software Development</span><br>Building softwares</li>
+                        </ul>
+                    </div>   -->  
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------contact --------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="roww">
+            <div class = "contact-left">
+                <h1 class = "sub-title"> Contact Me!</h1>
+                <!--<p><i class="fa-solid fa-paper-plane"></i> uzma_hamid@tamu.edu</p>
+                <p><i class="fa-solid fa-phone"></i>**********</p>-->
+                <p class="connect">Feel free to provide any feedback, suggestions or just say hello!</p>
+                <div class= "social-icons">
+                    <a href="https://www.linkedin.com/in/uzma-hamid-46b2ab219/"><i class="fa-brands fa-linkedin-in" style="color: #fff;"></i></a> 
+                    <a href="https://github.com/uzmahamid01"><i class="fa-brands fa-github" style="color: #fff;"></i></a>
+                    <a href="uzma_hamid@tamu.edu"><i class="fa-solid fa-envelope" style="color: #fff;"></i></a>
+                </div>
+                <br>
+                <a href="images/resume.pdf" download class="btn btn2"> Download Resume</a>
+            </div>
+            <div class=" contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Uzma Hamid 2023 </p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+            
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    window.addEventListener("scroll", function() {
+        var header = document.getElementById("header");
+        if (window.pageYOffset > header.offsetTop + header.offsetHeight) {
+            header.classList.add("fixed-header");
+        } else {
+            header.classList.remove("fixed-header");
+        }
+    });
+</script>
+<script>
+    window.addEventListener("scroll", function() {
+    var header = document.getElementById("header");
+    var headerFixed = document.querySelector(".header-fixed");
+
+    if (window.pageYOffset > header.offsetTop + header.offsetHeight) {
+        headerFixed.classList.add("show-border");
+    } else {
+        headerFixed.classList.remove("show-border");
+    }
+});
+</script>
+<script>
+    // Smooth scroll function
+    function smoothScroll(targetId) {
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth', // Use smooth scrolling behavior
+            });
+        }
+    }
+
+    // Attach click event listeners to navigation links
+    document.querySelectorAll('#sidemenu a').forEach((link) => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault(); // Prevent the default anchor link behavior
+            const targetId = link.getAttribute('href').substring(1); // Remove the "#" from the href
+            smoothScroll(targetId); // Call the smooth scroll function
+        });
+    });
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxS2f1qfdER6GzpctHJEJj3a_-fVW_z-IQhDnFySRbu0dVwZc2wTNrTXsSmpM0zCG2PBA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
